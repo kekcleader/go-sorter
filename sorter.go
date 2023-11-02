@@ -7,7 +7,7 @@ import (
 
 func main() {
   fmt.Println("Sorter")
-  m := ["Museum", "Hello", "World", "Apple", "Win"]
+  m := []string{"Museum", "Hello", "World", "Apple", "Win"}
   alphabet.Sort(m)
   for _, x := range m {
     fmt.Println(">", x)

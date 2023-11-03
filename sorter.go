@@ -7,9 +7,10 @@ import (
 
 func main() {
   fmt.Println("Sorter")
-  m := []string{"дорис", "клот", "иргиш", "дука", "груж",
+  m := []string{"дорис", "клот", "иргиш", "ИЛЛИОТ",
+                "дука", "груж", "СМАЙД", "арбуэ",
                 "АЛЁНА", "АЛЕНА", "АЛЁ", "АЛЕ-ОП"}
-  alphabet.Sort(m)
+  alphabet.SortFold(m)
   for _, x := range m {
     fmt.Println(">", x)
   }
